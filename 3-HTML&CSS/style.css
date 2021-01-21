@@ -1,0 +1,70 @@
+/* box model */
+
+/* star can select all the elements on the page */
+/* box-sizing means it will incloud 
+the paddings and boders into the width and the height that
+ we specify for an element */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* styles of different attributes in html */
+
+body {
+  background-color: bisque;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 50px;
+}
+
+h1 {
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+input,
+button {
+  padding: 10px;
+  font-size: 16;
+}
+
+a {
+  background-color: seagreen;
+}
+
+/* child selector */
+#your-name h2 {
+  color: orange;
+}
+
+/* use dot . to specify a class */
+
+.first {
+  color: salmon;
+}
+
+/* use hash to specify a id */
+
+#your-name {
+  background-color: royalblue;
+  border: 2px solid #444;
+  width: 400px;
+  padding: 25px;
+  margin-top: 30px;
+}
+/* padding is space in the box, margin is the space out the box */
+
+#image {
+  width: 300px;
+}
